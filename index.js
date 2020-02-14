@@ -13,3 +13,7 @@ function destructivelyRemoveFirstKitten(name) {
 function destructivelyRemoveLastKitten(name) {
   return kittens.pop([2])
 }
+function appendKitten(name) {
+  var newArray = appendKitten(name)
+  return ["name", ...kittens]
+}
